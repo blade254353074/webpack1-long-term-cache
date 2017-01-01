@@ -1,0 +1,49 @@
+{
+  "html-webpack-plugin for \"index.html\"": [
+    {
+      "nextFreeModuleId": 1,
+      "modules": {
+        "byIdentifier": {
+          "node_modules/html-webpack-plugin/lib/loader.js!src/index.html": 0,
+          "node_modules/lodash/lodash.js": "./node_modules/lodash/lodash.js",
+          "node_modules/webpack/buildin/module.js": "./node_modules/webpack/buildin/module.js"
+        }
+      },
+      "nextFreeChunkId": 1,
+      "chunks": {
+        "byName": {},
+        "byBlocks": {}
+      }
+    }
+  ],
+  "nextFreeModuleId": 2,
+  "modules": {
+    "byIdentifier": {
+      "node_modules/babel-loader/lib/index.js!src/index.js": 0,
+      "node_modules/underscore/underscore.js": "./node_modules/underscore/underscore.js",
+      "node_modules/babel-loader/lib/index.js!src/components/component2.js": "./src/components/component2.js",
+      "node_modules/babel-loader/lib/index.js!src/components/component1.js": "./src/components/component1.js",
+      "node_modules/es6-promise/dist/es6-promise.js": "./node_modules/es6-promise/dist/es6-promise.js",
+      "node_modules/process/browser.js": "./node_modules/process/browser.js",
+      "ignored /Users/SebastianBlade/Documents/Workspace/Web/git/webpack1-long-term-cache/node_modules/es6-promise/dist vertx": 1,
+      "node_modules/babel-loader/lib/index.js!src/components/component3.js": "./src/components/component3.js",
+      "multi libs": 0,
+      "multi vendor": 0,
+      "node_modules/es6-promise/auto.js": "./node_modules/es6-promise/auto.js",
+      "node_modules/whatwg-fetch/fetch.js": "./node_modules/whatwg-fetch/fetch.js"
+    }
+  },
+  "nextFreeChunkId": 6,
+  "chunks": {
+    "byName": {
+      "index": 0,
+      "libs": 3,
+      "vendor": 4,
+      "manifest": 5
+    },
+    "byBlocks": {
+      "node_modules/babel-loader/lib/index.js!src/index.js:0/0": 1,
+      "node_modules/babel-loader/lib/index.js!src/components/component1.js:0/0": 2
+    }
+  }
+}

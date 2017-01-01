@@ -4,7 +4,8 @@ const webpackConfig = require('../webpack.config')
 
 module.exports = merge(webpackConfig, {
   output: { path: `${__dirname}/build` },
+  recordsPath: `${__dirname}/recordsPath.json`,
   plugins: [
-    new webpack.optimize.OccurrenceOrderPlugin(true)
+    new webpack.NamedModulesPlugin()
   ]
 })

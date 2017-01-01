@@ -8,6 +8,16 @@
     "build:occurrence": "cross-env NODE_ENV=production webpack --progress --config ./occurrence/webpack.config.js",
     "prebuild:1": "rimraf ./example1/build/*",
     "build:1": "cross-env NODE_ENV=production webpack --progress --config ./example1/webpack.config.js",
+    "prebuild:2": "rimraf ./example2/build/*",
+    "build:2": "cross-env NODE_ENV=production webpack --progress --config ./example2/webpack.config.js",
+    "prebuild:3": "rimraf ./example3/build/*",
+    "build:3": "cross-env NODE_ENV=production webpack --progress --config ./example3/webpack.config.js",
+    "prebuild:4": "rimraf ./example4/build/*",
+    "build:4": "cross-env NODE_ENV=production webpack --progress --config ./example4/webpack.config.js",
+    "prebuild:5": "rimraf ./example5/build/*",
+    "build:5": "cross-env NODE_ENV=production webpack --progress --config ./example5/webpack.config.js",
+    "prebuild:6": "rimraf ./example6/build/*",
+    "build:6": "cross-env NODE_ENV=production webpack --progress --config ./example6/webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -40,6 +50,7 @@
     "html-webpack-plugin": "^2.25.0",
     "rimraf": "^2.5.4",
     "webpack": "^1.14.0",
-    "webpack-bundle-analyzer": "^2.2.1"
+    "webpack-bundle-analyzer": "^2.2.1",
+    "webpack-merge": "^2.0.0"
   }
 }

@@ -1578,6 +1578,34 @@ loader-utils@^0.2.11, loader-utils@^0.2.16:
     json5 "^0.5.0"
     object-assign "^4.0.1"
 
+lodash.clonedeep@^4.5.0:
+  version "4.5.0"
+  resolved "http://registry.npm.taobao.org/lodash.clonedeep/download/lodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
+
+lodash.differencewith@^4.5.0:
+  version "4.5.0"
+  resolved "http://registry.npm.taobao.org/lodash.differencewith/download/lodash.differencewith-4.5.0.tgz#bafafbc918b55154e179176a00bb0aefaac854b7"
+
+lodash.isequal@^4.4.0:
+  version "4.4.0"
+  resolved "http://registry.npm.taobao.org/lodash.isequal/download/lodash.isequal-4.4.0.tgz#6295768e98e14dc15ce8d362ef6340db82852031"
+
+lodash.isfunction@^3.0.8:
+  version "3.0.8"
+  resolved "http://registry.npm.taobao.org/lodash.isfunction/download/lodash.isfunction-3.0.8.tgz#4db709fc81bc4a8fd7127a458a5346c5cdce2c6b"
+
+lodash.isplainobject@^4.0.6:
+  version "4.0.6"
+  resolved "http://registry.npm.taobao.org/lodash.isplainobject/download/lodash.isplainobject-4.0.6.tgz#7c526a52d89b45c45cc690b88163be0497f550cb"
+
+lodash.mergewith@^4.6.0:
+  version "4.6.0"
+  resolved "http://registry.npm.taobao.org/lodash.mergewith/download/lodash.mergewith-4.6.0.tgz#150cf0a16791f5903b8891eab154609274bdea55"
+
+lodash.unionwith@^4.6.0:
+  version "4.6.0"
+  resolved "http://registry.npm.taobao.org/lodash.unionwith/download/lodash.unionwith-4.6.0.tgz#74d140b5ca8146e6c643c3724f5152538d9ac1f0"
+
 lodash@^4.16.4, lodash@^4.17.2, lodash@^4.2.0:
   version "4.17.4"
   resolved "http://registry.npm.taobao.org/lodash/download/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
@@ -2464,6 +2492,18 @@ webpack-core@~0.6.9:
   dependencies:
     source-list-map "~0.1.7"
     source-map "~0.4.1"
+
+webpack-merge@^2.0.0:
+  version "2.0.0"
+  resolved "http://registry.npm.taobao.org/webpack-merge/download/webpack-merge-2.0.0.tgz#fd328707d26f6f9852be2767557cef51d942c1dc"
+  dependencies:
+    lodash.clonedeep "^4.5.0"
+    lodash.differencewith "^4.5.0"
+    lodash.isequal "^4.4.0"
+    lodash.isfunction "^3.0.8"
+    lodash.isplainobject "^4.0.6"
+    lodash.mergewith "^4.6.0"
+    lodash.unionwith "^4.6.0"
 
 webpack@^1.14.0:
   version "1.14.0"
