@@ -14,6 +14,36 @@
         "byName": {},
         "byBlocks": {}
       }
+    },
+    {
+      "nextFreeModuleId": 1,
+      "modules": {
+        "byIdentifier": {
+          "node_modules/html-webpack-plugin/lib/loader.js!src/index.html": 0,
+          "node_modules/lodash/lodash.js": "M4fF",
+          "node_modules/webpack/buildin/module.js": "3IRH"
+        }
+      },
+      "nextFreeChunkId": 1,
+      "chunks": {
+        "byName": {},
+        "byBlocks": {}
+      }
+    },
+    {
+      "nextFreeModuleId": 1,
+      "modules": {
+        "byIdentifier": {
+          "node_modules/html-webpack-plugin/lib/loader.js!src/index.html": 0,
+          "node_modules/lodash/lodash.js": "M4fF",
+          "node_modules/webpack/buildin/module.js": "3IRH"
+        }
+      },
+      "nextFreeChunkId": 1,
+      "chunks": {
+        "byName": {},
+        "byBlocks": {}
+      }
     }
   ],
   "nextFreeModuleId": 2,

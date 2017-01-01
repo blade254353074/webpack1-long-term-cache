@@ -14,6 +14,21 @@
         "byName": {},
         "byBlocks": {}
       }
+    },
+    {
+      "nextFreeModuleId": 1,
+      "modules": {
+        "byIdentifier": {
+          "node_modules/html-webpack-plugin/lib/loader.js!src/index.html": 0,
+          "node_modules/lodash/lodash.js": "./node_modules/lodash/lodash.js",
+          "node_modules/webpack/buildin/module.js": "./node_modules/webpack/buildin/module.js"
+        }
+      },
+      "nextFreeChunkId": 1,
+      "chunks": {
+        "byName": {},
+        "byBlocks": {}
+      }
     }
   ],
   "nextFreeModuleId": 2,

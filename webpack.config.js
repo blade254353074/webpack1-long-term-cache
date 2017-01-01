@@ -38,6 +38,7 @@ module.exports = {
     new webpack.optimize.CommonsChunkPlugin({
       name: ['vendor', 'libs', 'manifest'],
       minChunks: Infinity
-    })
+    }),
+    new BundleAnalyzerPlugin(),
   ]
 }
