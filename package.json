@@ -39,7 +39,6 @@
   "homepage": "https://github.com/blade254353074/webpack1-long-term-cache#readme",
   "dependencies": {
     "es6-promise": "^4.0.5",
-    "underscore": "^1.8.3",
     "whatwg-fetch": "^2.0.1"
   },
   "devDependencies": {

@@ -5,7 +5,7 @@ new Promise((resolve, reject) => {
   .then(_ => {
     console.info('setTimeout 1000')
     require.ensure(['./component3'], _ => {
-      const component3 = require('./component3').default
+      require('./component3').default
       console.info('load component3 chunk success!')
     })
   })

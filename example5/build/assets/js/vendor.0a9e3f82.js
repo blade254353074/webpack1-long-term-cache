@@ -1,26 +1,26 @@
-webpackJsonp([3,4],{
+webpackJsonp([1,2],{
 
 /***/ 0:
 /***/ function(module, exports, __webpack_require__) {
 
-	__webpack_require__("./node_modules/es6-promise/auto.js");
-	module.exports = __webpack_require__("./node_modules/whatwg-fetch/fetch.js");
+	__webpack_require__("MU8w");
+	module.exports = __webpack_require__("rplX");
 
 
 /***/ },
 
-/***/ "./node_modules/es6-promise/auto.js":
+/***/ "MU8w":
 /***/ function(module, exports, __webpack_require__) {
 
 	// This file can be required in Browserify and Node.js for automatic polyfill
 	// To use it:  require('es6-promise/auto');
 	'use strict';
-	module.exports = __webpack_require__("./node_modules/es6-promise/dist/es6-promise.js").polyfill();
+	module.exports = __webpack_require__("hKoQ").polyfill();
 
 
 /***/ },
 
-/***/ "./node_modules/es6-promise/dist/es6-promise.js":
+/***/ "hKoQ":
 /***/ function(module, exports, __webpack_require__) {
 
 	var require;/* WEBPACK VAR INJECTION */(function(process, global) {/*!
@@ -1180,11 +1180,11 @@ webpackJsonp([3,4],{
 
 	})));
 	//# sourceMappingURL=es6-promise.map
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__("./node_modules/process/browser.js"), (function() { return this; }())))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__("W2nU"), (function() { return this; }())))
 
 /***/ },
 
-/***/ "./node_modules/process/browser.js":
+/***/ "W2nU":
 /***/ function(module, exports) {
 
 	// shim for using process in browser
@@ -1378,7 +1378,7 @@ webpackJsonp([3,4],{
 
 /***/ },
 
-/***/ "./node_modules/whatwg-fetch/fetch.js":
+/***/ "rplX":
 /***/ function(module, exports) {
 
 	(function(self) {

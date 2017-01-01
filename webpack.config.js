@@ -10,9 +10,8 @@ const urls = {
 
 module.exports = {
   entry: {
-    libs: ['underscore'],
     vendor: ['es6-promise/auto', 'whatwg-fetch'],
-    index: urls.index
+    entry: urls.index,
   },
   output: {
     publicPath: '',
@@ -33,10 +32,10 @@ module.exports = {
     new webpack.DefinePlugin({ 'process.env': { 'NODE_ENV': '"production"' }}),
     new HtmlWebpackPlugin({
       template: urls.html,
-      chunks: ['manifest', 'libs', 'vendor', 'index']
+      chunks: ['manifest', 'vendor', 'entry']
     }),
     new webpack.optimize.CommonsChunkPlugin({
-      name: ['vendor', 'libs', 'manifest'],
+      name: ['entry', 'vendor', 'manifest'],
       minChunks: Infinity
     }),
     // new BundleAnalyzerPlugin()

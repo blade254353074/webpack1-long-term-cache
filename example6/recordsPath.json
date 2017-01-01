@@ -89,6 +89,156 @@
         "byName": {},
         "byBlocks": {}
       }
+    },
+    {
+      "nextFreeModuleId": 1,
+      "modules": {
+        "byIdentifier": {
+          "node_modules/html-webpack-plugin/lib/loader.js!src/index.html": 0,
+          "node_modules/lodash/lodash.js": "M4fF",
+          "node_modules/webpack/buildin/module.js": "3IRH"
+        }
+      },
+      "nextFreeChunkId": 1,
+      "chunks": {
+        "byName": {},
+        "byBlocks": {}
+      }
+    },
+    {
+      "nextFreeModuleId": 1,
+      "modules": {
+        "byIdentifier": {
+          "node_modules/html-webpack-plugin/lib/loader.js!src/index.html": 0,
+          "node_modules/lodash/lodash.js": "M4fF",
+          "node_modules/webpack/buildin/module.js": "3IRH"
+        }
+      },
+      "nextFreeChunkId": 1,
+      "chunks": {
+        "byName": {},
+        "byBlocks": {}
+      }
+    },
+    {
+      "nextFreeModuleId": 1,
+      "modules": {
+        "byIdentifier": {
+          "node_modules/html-webpack-plugin/lib/loader.js!src/index.html": 0,
+          "node_modules/lodash/lodash.js": "M4fF",
+          "node_modules/webpack/buildin/module.js": "3IRH"
+        }
+      },
+      "nextFreeChunkId": 1,
+      "chunks": {
+        "byName": {},
+        "byBlocks": {}
+      }
+    },
+    {
+      "nextFreeModuleId": 1,
+      "modules": {
+        "byIdentifier": {
+          "node_modules/html-webpack-plugin/lib/loader.js!src/index.html": 0,
+          "node_modules/lodash/lodash.js": "M4fF",
+          "node_modules/webpack/buildin/module.js": "3IRH"
+        }
+      },
+      "nextFreeChunkId": 1,
+      "chunks": {
+        "byName": {},
+        "byBlocks": {}
+      }
+    },
+    {
+      "nextFreeModuleId": 1,
+      "modules": {
+        "byIdentifier": {
+          "node_modules/html-webpack-plugin/lib/loader.js!src/index.html": 0,
+          "node_modules/lodash/lodash.js": "M4fF",
+          "node_modules/webpack/buildin/module.js": "3IRH"
+        }
+      },
+      "nextFreeChunkId": 1,
+      "chunks": {
+        "byName": {},
+        "byBlocks": {}
+      }
+    },
+    {
+      "nextFreeModuleId": 1,
+      "modules": {
+        "byIdentifier": {
+          "node_modules/html-webpack-plugin/lib/loader.js!src/index.html": 0,
+          "node_modules/lodash/lodash.js": "M4fF",
+          "node_modules/webpack/buildin/module.js": "3IRH"
+        }
+      },
+      "nextFreeChunkId": 1,
+      "chunks": {
+        "byName": {},
+        "byBlocks": {}
+      }
+    },
+    {
+      "nextFreeModuleId": 1,
+      "modules": {
+        "byIdentifier": {
+          "node_modules/html-webpack-plugin/lib/loader.js!src/index.html": 0,
+          "node_modules/lodash/lodash.js": "M4fF",
+          "node_modules/webpack/buildin/module.js": "3IRH"
+        }
+      },
+      "nextFreeChunkId": 1,
+      "chunks": {
+        "byName": {},
+        "byBlocks": {}
+      }
+    },
+    {
+      "nextFreeModuleId": 1,
+      "modules": {
+        "byIdentifier": {
+          "node_modules/html-webpack-plugin/lib/loader.js!src/index.html": 0,
+          "node_modules/lodash/lodash.js": "M4fF",
+          "node_modules/webpack/buildin/module.js": "3IRH"
+        }
+      },
+      "nextFreeChunkId": 1,
+      "chunks": {
+        "byName": {},
+        "byBlocks": {}
+      }
+    },
+    {
+      "nextFreeModuleId": 1,
+      "modules": {
+        "byIdentifier": {
+          "node_modules/html-webpack-plugin/lib/loader.js!src/index.html": 0,
+          "node_modules/lodash/lodash.js": "M4fF",
+          "node_modules/webpack/buildin/module.js": "3IRH"
+        }
+      },
+      "nextFreeChunkId": 1,
+      "chunks": {
+        "byName": {},
+        "byBlocks": {}
+      }
+    },
+    {
+      "nextFreeModuleId": 1,
+      "modules": {
+        "byIdentifier": {
+          "node_modules/html-webpack-plugin/lib/loader.js!src/index.html": 0,
+          "node_modules/lodash/lodash.js": "M4fF",
+          "node_modules/webpack/buildin/module.js": "3IRH"
+        }
+      },
+      "nextFreeChunkId": 1,
+      "chunks": {
+        "byName": {},
+        "byBlocks": {}
+      }
     }
   ],
   "nextFreeModuleId": 2,
@@ -107,16 +257,18 @@
       "node_modules/es6-promise/auto.js": "MU8w",
       "node_modules/whatwg-fetch/fetch.js": "rplX",
       "node_modules/babel-loader/lib/index.js!src/views/page1.js": "bFS4",
-      "node_modules/babel-loader/lib/index.js!src/views/page2.js": "0KVu"
+      "node_modules/babel-loader/lib/index.js!src/views/page2.js": "0KVu",
+      "node_modules/babel-loader/lib/index.js!src/components/component4.js": "7plm"
     }
   },
-  "nextFreeChunkId": 6,
+  "nextFreeChunkId": 7,
   "chunks": {
     "byName": {
       "index": 0,
       "libs": 3,
       "vendor": 4,
-      "manifest": 5
+      "manifest": 5,
+      "entry": 6
     },
     "byBlocks": {
       "node_modules/babel-loader/lib/index.js!src/index.js:0/0": 1,

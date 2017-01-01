@@ -30,7 +30,7 @@
 /******/ 	// "0" means "already loaded"
 /******/ 	// Array means "loading", array contains callbacks
 /******/ 	var installedChunks = {
-/******/ 		4:0
+/******/ 		2:0
 /******/ 	};
 
 /******/ 	// The require function
@@ -76,7 +76,7 @@
 /******/ 			script.charset = 'utf-8';
 /******/ 			script.async = true;
 
-/******/ 			script.src = __webpack_require__.p + "assets/js/" + ({"0":"index","2":"libs","3":"vendor"}[chunkId]||chunkId) + "." + {"0":"7370a26b","1":"e9ef1d0b","2":"1cb86843","3":"63381143"}[chunkId] + ".js";
+/******/ 			script.src = __webpack_require__.p + "assets/js/" + ({"0":"entry","1":"vendor"}[chunkId]||chunkId) + "." + {"0":"7e32a854","1":"513c0879"}[chunkId] + ".js";
 /******/ 			head.appendChild(script);
 /******/ 		}
 /******/ 	};

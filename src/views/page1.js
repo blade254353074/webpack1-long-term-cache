@@ -1,4 +1,4 @@
-import '../components/component1'
+// import '../components/component1'
 import '../components/component2'
 import '../components/component3'
 

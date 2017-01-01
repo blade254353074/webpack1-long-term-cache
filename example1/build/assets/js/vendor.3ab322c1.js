@@ -1,16 +1,18 @@
-webpackJsonp([3,4],[
+webpackJsonp([1,2],[
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	__webpack_require__(10);
-	module.exports = __webpack_require__(11);
+	__webpack_require__(9);
+	module.exports = __webpack_require__(10);
 
 
 /***/ },
 /* 1 */,
 /* 2 */,
 /* 3 */,
-/* 4 */
+/* 4 */,
+/* 5 */,
+/* 6 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var require;/* WEBPACK VAR INJECTION */(function(process, global) {/*!
@@ -149,7 +151,7 @@ webpackJsonp([3,4],[
 	function attemptVertx() {
 	  try {
 	    var r = require;
-	    var vertx = __webpack_require__(6);
+	    var vertx = __webpack_require__(8);
 	    vertxNext = vertx.runOnLoop || vertx.runOnContext;
 	    return useVertxTimer();
 	  } catch (e) {
@@ -1170,10 +1172,10 @@ webpackJsonp([3,4],[
 
 	})));
 	//# sourceMappingURL=es6-promise.map
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5), (function() { return this; }())))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(7), (function() { return this; }())))
 
 /***/ },
-/* 5 */
+/* 7 */
 /***/ function(module, exports) {
 
 	// shim for using process in browser
@@ -1359,26 +1361,23 @@ webpackJsonp([3,4],[
 
 
 /***/ },
-/* 6 */
+/* 8 */
 /***/ function(module, exports) {
 
 	/* (ignored) */
 
 /***/ },
-/* 7 */,
-/* 8 */,
-/* 9 */,
-/* 10 */
+/* 9 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// This file can be required in Browserify and Node.js for automatic polyfill
 	// To use it:  require('es6-promise/auto');
 	'use strict';
-	module.exports = __webpack_require__(4).polyfill();
+	module.exports = __webpack_require__(6).polyfill();
 
 
 /***/ },
-/* 11 */
+/* 10 */
 /***/ function(module, exports) {
 
 	(function(self) {

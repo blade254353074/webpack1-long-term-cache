@@ -1,9 +1,9 @@
-webpackJsonp([2,1],[
+webpackJsonp([1,0],[
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	__webpack_require__(5);
-	module.exports = __webpack_require__(7);
+	__webpack_require__(7);
+	module.exports = __webpack_require__(9);
 
 
 /***/ },
@@ -148,7 +148,7 @@ webpackJsonp([2,1],[
 	function attemptVertx() {
 	  try {
 	    var r = require;
-	    var vertx = __webpack_require__(8);
+	    var vertx = __webpack_require__(10);
 	    vertxNext = vertx.runOnLoop || vertx.runOnContext;
 	    return useVertxTimer();
 	  } catch (e) {
@@ -1169,11 +1169,13 @@ webpackJsonp([2,1],[
 
 	})));
 	//# sourceMappingURL=es6-promise.map
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(6), (function() { return this; }())))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(8), (function() { return this; }())))
 
 /***/ },
 /* 4 */,
-/* 5 */
+/* 5 */,
+/* 6 */,
+/* 7 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// This file can be required in Browserify and Node.js for automatic polyfill
@@ -1183,7 +1185,7 @@ webpackJsonp([2,1],[
 
 
 /***/ },
-/* 6 */
+/* 8 */
 /***/ function(module, exports) {
 
 	// shim for using process in browser
@@ -1369,7 +1371,7 @@ webpackJsonp([2,1],[
 
 
 /***/ },
-/* 7 */
+/* 9 */
 /***/ function(module, exports) {
 
 	(function(self) {
@@ -1833,7 +1835,7 @@ webpackJsonp([2,1],[
 
 
 /***/ },
-/* 8 */
+/* 10 */
 /***/ function(module, exports) {
 
 	/* (ignored) */

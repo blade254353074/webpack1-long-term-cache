@@ -1,26 +1,31 @@
-webpackJsonp([1,5],{
-
-/***/ "./src/views/page1.js":
+webpackJsonp([6,5],[
+/* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	__webpack_require__("./src/components/component1.js");
+	__webpack_require__(10);
 
-	__webpack_require__("./src/components/component2.js");
+	__webpack_require__(11);
 
-	__webpack_require__("./src/components/component3.js");
-
-	console.info('This is page1');
+	console.warn('Entry(index) Bootstraping');
 
 /***/ },
+/* 1 */,
+/* 2 */
+/***/ function(module, exports) {
 
-/***/ "./src/components/component1.js":
+	'use strict';
+
+	console.warn('import ES6 Module component2');
+
+/***/ },
+/* 3 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	var _promise = __webpack_require__("./node_modules/es6-promise/dist/es6-promise.js");
+	var _promise = __webpack_require__(4);
 
 	var _promise2 = _interopRequireDefault(_promise);
 
@@ -32,7 +37,7 @@ webpackJsonp([1,5],{
 	}).then(function (_) {
 	  console.info('setTimeout 1000');
 	  !/* require.ensure */(function (_) {
-	    var component3 = __webpack_require__("./src/components/component3.js").default;
+	    __webpack_require__(7).default;
 	    console.info('load component3 chunk success!');
 	  }(__webpack_require__));
 	}).catch(function (err) {
@@ -40,17 +45,10 @@ webpackJsonp([1,5],{
 	});
 
 /***/ },
-
-/***/ "./src/components/component2.js":
-/***/ function(module, exports) {
-
-	'use strict';
-
-	console.warn('import ES6 Module component2');
-
-/***/ },
-
-/***/ "./src/components/component3.js":
+/* 4 */,
+/* 5 */,
+/* 6 */,
+/* 7 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -64,20 +62,33 @@ webpackJsonp([1,5],{
 	});
 
 /***/ },
-
-/***/ "./src/views/page2.js":
+/* 8 */,
+/* 9 */,
+/* 10 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	__webpack_require__("./src/components/component1.js");
+	__webpack_require__(2);
 
-	__webpack_require__("./src/components/component2.js");
+	__webpack_require__(7);
 
-	__webpack_require__("./src/components/component3.js");
+	// import '../components/component1'
+	console.info('This is page1');
+
+/***/ },
+/* 11 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	__webpack_require__(3);
+
+	__webpack_require__(2);
+
+	__webpack_require__(7);
 
 	console.info('This is page2');
 
 /***/ }
-
-});
+]);
