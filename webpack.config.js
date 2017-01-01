@@ -39,6 +39,6 @@ module.exports = {
       name: ['vendor', 'libs', 'manifest'],
       minChunks: Infinity
     }),
-    new BundleAnalyzerPlugin(),
+    // new BundleAnalyzerPlugin()
   ]
 }

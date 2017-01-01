@@ -29,9 +29,54 @@
         "byName": {},
         "byBlocks": {}
       }
+    },
+    {
+      "nextFreeModuleId": 3,
+      "modules": {
+        "byIdentifier": {
+          "node_modules/html-webpack-plugin/lib/loader.js!src/index.html": 0,
+          "node_modules/lodash/lodash.js": 1,
+          "node_modules/webpack/buildin/module.js": 2
+        }
+      },
+      "nextFreeChunkId": 1,
+      "chunks": {
+        "byName": {},
+        "byBlocks": {}
+      }
+    },
+    {
+      "nextFreeModuleId": 3,
+      "modules": {
+        "byIdentifier": {
+          "node_modules/html-webpack-plugin/lib/loader.js!src/index.html": 0,
+          "node_modules/lodash/lodash.js": 1,
+          "node_modules/webpack/buildin/module.js": 2
+        }
+      },
+      "nextFreeChunkId": 1,
+      "chunks": {
+        "byName": {},
+        "byBlocks": {}
+      }
+    },
+    {
+      "nextFreeModuleId": 3,
+      "modules": {
+        "byIdentifier": {
+          "node_modules/html-webpack-plugin/lib/loader.js!src/index.html": 0,
+          "node_modules/lodash/lodash.js": 1,
+          "node_modules/webpack/buildin/module.js": 2
+        }
+      },
+      "nextFreeChunkId": 1,
+      "chunks": {
+        "byName": {},
+        "byBlocks": {}
+      }
     }
   ],
-  "nextFreeModuleId": 10,
+  "nextFreeModuleId": 12,
   "modules": {
     "byIdentifier": {
       "node_modules/babel-loader/lib/index.js!src/index.js": 0,
@@ -45,7 +90,9 @@
       "multi libs": 0,
       "multi vendor": 0,
       "node_modules/es6-promise/auto.js": 8,
-      "node_modules/whatwg-fetch/fetch.js": 9
+      "node_modules/whatwg-fetch/fetch.js": 9,
+      "node_modules/babel-loader/lib/index.js!src/views/page1.js": 10,
+      "node_modules/babel-loader/lib/index.js!src/views/page2.js": 11
     }
   },
   "nextFreeChunkId": 6,

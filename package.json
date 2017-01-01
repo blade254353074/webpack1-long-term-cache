@@ -18,6 +18,7 @@
     "build:5": "cross-env NODE_ENV=production webpack --progress --config ./example5/webpack.config.js",
     "prebuild:6": "rimraf ./example6/build/*",
     "build:6": "cross-env NODE_ENV=production webpack --progress --config ./example6/webpack.config.js",
+    "build": "npm run build:6 && npm run build:5 && npm run build:4 && npm run build:3 && npm run build:2 && npm run build:1",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

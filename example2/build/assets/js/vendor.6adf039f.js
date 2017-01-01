@@ -1,16 +1,26 @@
-webpackJsonp([4,5],[
-/* 0 */
+webpackJsonp([3,4],{
+
+/***/ 0:
 /***/ function(module, exports, __webpack_require__) {
 
-	__webpack_require__(8);
-	module.exports = __webpack_require__(9);
+	__webpack_require__("./node_modules/es6-promise/auto.js");
+	module.exports = __webpack_require__("./node_modules/whatwg-fetch/fetch.js");
 
 
 /***/ },
-/* 1 */,
-/* 2 */,
-/* 3 */,
-/* 4 */
+
+/***/ "./node_modules/es6-promise/auto.js":
+/***/ function(module, exports, __webpack_require__) {
+
+	// This file can be required in Browserify and Node.js for automatic polyfill
+	// To use it:  require('es6-promise/auto');
+	'use strict';
+	module.exports = __webpack_require__("./node_modules/es6-promise/dist/es6-promise.js").polyfill();
+
+
+/***/ },
+
+/***/ "./node_modules/es6-promise/dist/es6-promise.js":
 /***/ function(module, exports, __webpack_require__) {
 
 	var require;/* WEBPACK VAR INJECTION */(function(process, global) {/*!
@@ -149,7 +159,7 @@ webpackJsonp([4,5],[
 	function attemptVertx() {
 	  try {
 	    var r = require;
-	    var vertx = __webpack_require__(6);
+	    var vertx = __webpack_require__(1);
 	    vertxNext = vertx.runOnLoop || vertx.runOnContext;
 	    return useVertxTimer();
 	  } catch (e) {
@@ -1170,10 +1180,11 @@ webpackJsonp([4,5],[
 
 	})));
 	//# sourceMappingURL=es6-promise.map
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5), (function() { return this; }())))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__("./node_modules/process/browser.js"), (function() { return this; }())))
 
 /***/ },
-/* 5 */
+
+/***/ "./node_modules/process/browser.js":
 /***/ function(module, exports) {
 
 	// shim for using process in browser
@@ -1359,24 +1370,15 @@ webpackJsonp([4,5],[
 
 
 /***/ },
-/* 6 */
+
+/***/ 1:
 /***/ function(module, exports) {
 
 	/* (ignored) */
 
 /***/ },
-/* 7 */,
-/* 8 */
-/***/ function(module, exports, __webpack_require__) {
 
-	// This file can be required in Browserify and Node.js for automatic polyfill
-	// To use it:  require('es6-promise/auto');
-	'use strict';
-	module.exports = __webpack_require__(4).polyfill();
-
-
-/***/ },
-/* 9 */
+/***/ "./node_modules/whatwg-fetch/fetch.js":
 /***/ function(module, exports) {
 
 	(function(self) {
@@ -1840,4 +1842,5 @@ webpackJsonp([4,5],[
 
 
 /***/ }
-]);
+
+});

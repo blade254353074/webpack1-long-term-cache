@@ -1,7 +1,11 @@
 import _ from 'underscore'
-import component2 from './components/component2'
 
 console.warn('Entry(index) Bootstraping')
-require.ensure(['./components/component1'], _ => {
-  const component1 = require('./components/component1').default
+require.ensure([
+  './views/page1',
+  './views/page2'
+], _ => {
+  // require('./components/component1').default
+  require('./views/page1')
+  require('./views/page2')
 })
